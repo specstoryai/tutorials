@@ -7,6 +7,7 @@ interface ClassicCar {
   yearEnd: number;
   description: string;
   imagePath: string;
+  isFavorite: boolean;
 }
 
 export const classicCars: ClassicCar[] = [
@@ -18,7 +19,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1953,
     yearEnd: 1962,
     description: "America's first true sports car, the C1 Corvette established itself as an icon with its distinctive fiberglass body and powerful V8 engine.",
-    imagePath: "/chevrolet-corvette-c1.jpg"
+    imagePath: "/chevrolet-corvette-c1.jpg",
+    isFavorite: false
   },
   {
     id: 2,
@@ -28,7 +30,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1964,
     yearEnd: 1968,
     description: "The original pony car that created an entirely new market segment, featuring a perfect blend of performance and style that captured America's heart.",
-    imagePath: "/ford-mustang-gt.jpg"
+    imagePath: "/ford-mustang-gt.jpg",
+    isFavorite: false
   },
   {
     id: 3,
@@ -38,7 +41,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1954,
     yearEnd: 1957,
     description: "Famous for its distinctive gullwing doors and fuel-injected engine, the 300SL was the fastest production car of its time.",
-    imagePath: "/mercedes-300sl-gullwing.jpg"
+    imagePath: "/mercedes-300sl-gullwing.jpg",
+    isFavorite: false
   },
   {
     id: 4,
@@ -48,7 +52,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1963,
     yearEnd: 1965,
     description: "Forever immortalized as James Bond's car, the DB5 combined British luxury with impressive performance and timeless styling.",
-    imagePath: "/aston-martin-db5.jpg"
+    imagePath: "/aston-martin-db5.jpg",
+    isFavorite: false
   },
   {
     id: 5,
@@ -58,7 +63,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1957,
     yearEnd: 1960,
     description: "One of the most beautiful convertibles ever made, the California Spyder combined Ferrari's racing heritage with elegant open-top touring.",
-    imagePath: "/ferrari-250-gt-california.jpg"
+    imagePath: "/ferrari-250-gt-california.jpg",
+    isFavorite: false
   },
   {
     id: 6,
@@ -68,7 +74,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1961,
     yearEnd: 1968,
     description: "Dubbed 'the most beautiful car ever made' by Enzo Ferrari, the E-Type combined stunning looks with outstanding performance.",
-    imagePath: "/jaguar-e-type.jpg"
+    imagePath: "/jaguar-e-type.jpg",
+    isFavorite: false
   },
   {
     id: 7,
@@ -78,7 +85,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1954,
     yearEnd: 1965,
     description: "The car that established Porsche's reputation, featuring lightweight construction and excellent handling characteristics.",
-    imagePath: "/classic-car-placeholder.svg"
+    imagePath: "/classic-car-placeholder.svg",
+    isFavorite: false
   },
   {
     id: 8,
@@ -88,7 +96,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1954,
     yearEnd: 1965,
     description: "A beautiful Italian sports car that perfectly balanced performance and practicality with its innovative twin-cam engine.",
-    imagePath: "/classic-car-placeholder.svg"
+    imagePath: "/classic-car-placeholder.svg",
+    isFavorite: false
   },
   {
     id: 9,
@@ -98,7 +107,8 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1957,
     yearEnd: 1964,
     description: "Maserati's first successful grand touring car, featuring race-derived technology in a luxurious package.",
-    imagePath: "/classic-car-placeholder.svg"
+    imagePath: "/classic-car-placeholder.svg",
+    isFavorite: false
   },
   {
     id: 10,
@@ -108,6 +118,7 @@ export const classicCars: ClassicCar[] = [
     yearStart: 1964,
     yearEnd: 1969,
     description: "A powerful American muscle car that competed with the Mustang, featuring a distinctive fastback design and robust performance.",
-    imagePath: "/classic-car-placeholder.svg"
+    imagePath: "/classic-car-placeholder.svg",
+    isFavorite: false
   }
 ]; 
